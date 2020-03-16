@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Permisos</title></head>
+<body>
+	<form action="/numero_permisos/" method="GET">
+        Nombre: <input type="text" name="nombre">
+        Tipo de ausencia: <select name="tipo_ausencia">
+			  <option value="1">CARGO A VACACIONES</option>
+			  <option value="2">ENFERMEDAD</option>
+			  <option value="3">COMPENSACION</option>
+			  <option value="4">CALAMIDAD</option>
+			  <option value="5">PRESENTAR CERTIFICADO</option>
+
+			</select>
+        Fecha desde: <input type="date" name="fecha_desde">
+        Fecha hasta: <input type="date" name="fecha_hasta">
+        Numero de dias: <input type="text" name="numero_dias">
+        <button type="submit" name="action">Enviar</button> 
+    </form>
+</body>
+</html>
